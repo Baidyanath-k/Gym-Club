@@ -1,0 +1,50 @@
+[
+  {
+    "id": "63349508e389f2d72650b6e4",
+    "name": "Dumbbell",
+    "time": "30m",
+    "picture": "https://media.istockphoto.com/photos/functional-training-sports-equipment-kettlebell-and-skipping-rope-on-picture-id1279522744?b=1&k=20&m=1279522744&s=170667a&w=0&h=tSWexNNtcCI6mY5eD-d2AqymuxWx8tRPVeXwv7KegJk=",
+    "age": "20-25",
+    "detaile": "For many people, buying a set of dumbbells is their first step toward strength training at home. That's a great place to start, since dumbbells are inexpensive, require little space, and are easy to use."
+  },
+  {
+    "id": "63349508ddc58c1a064cc2ae",
+    "name": "Rowing Machine",
+    "time": "20m",
+    "picture": "https://media.istockphoto.com/photos/man-exercising-on-rowing-machine-picture-id1408847337?b=1&k=20&m=1408847337&s=170667a&w=0&h=HqMmsDHTCrEp1bn-LkgTzCVisxyopECewjyYpWRNxHc=",
+    "age": "18-30",
+    "detaile": "Rowing is a total-body workout, meaning it will strengthen major muscle groups in your arms, legs, and core and increase cardiovascular endurance."
+  },
+  {
+    "id": "63349508acc936970c815027",
+    "name": "Treadmill",
+    "time": "40m",
+    "picture": "https://media.istockphoto.com/photos/treadmills-and-cross-trainers-side-by-side-in-gym-picture-id1195721693?b=1&k=20&m=1195721693&s=170667a&w=0&h=CymsYEmBj7M2mfniuHT-9VxT1KRWY86eLjkF2Sab9mE=",
+    "age": "22-35",
+    "detaile": "Invest in some type of cardio equipment. If you can afford it, you might be able to include several different types of machines. But if you can only afford one, the treadmill is a smart choice."
+  },
+  {
+    "id": "63349508bb5d788e613377e2",
+    "name": "Stationary Bicycle",
+    "time": "25m",
+    "picture": "https://media.istockphoto.com/photos/exercising-bikes-picture-id139956902?b=1&k=20&m=139956902&s=170667a&w=0&h=pcbTbFyC4PWxxAEOhcsvlgWkwoBGZ965XSR7GhCKKBQ=",
+    "age": "25-40",
+    "detaile": "Riding a stationary bike can help build strength in your legs and lower body, especially if you use a higher resistance."
+  },
+  {
+    "id": "63349508b65d1abe5b3d0233",
+    "name": "Kettlebell Set",
+    "time": "35m",
+    "picture": "https://images.unsplash.com/photo-1661678730712-13b11a07ec5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGd5bSUyMGtldHRsZWJlbGwlMjBzZXR8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "age": "30-35",
+    "detaile": "green"
+  },
+  {
+    "id": "63349508f8a02e7da9bce039",
+    "name": "Pull-Up Frame and Bar",
+    "time": "50m",
+    "picture": "https://media.istockphoto.com/photos/building-his-muscles-picture-id656370892?b=1&k=20&m=656370892&s=170667a&w=0&h=WDD4t2UpUeJ_vt_sasIJa7T_ymB98fbTSVkYjB4_FUg=",
+    "age": "15-30",
+    "detaile": "Door frame pull up bars let you do effective pull ups even if you have little space for gym equipment. They are also a cheap and convenient alternative to standing pull up bars."
+  }
+]

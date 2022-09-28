@@ -1,0 +1,11 @@
+.all-container{
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+    gap: 0px 30px;
+}
+.left-container{
+    background-color: red;
+}
+.right-container{
+    background-color: aqua;
+}
