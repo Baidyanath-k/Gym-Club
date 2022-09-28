@@ -1,7 +1,37 @@
 .gym-section{
-    border: 2px solid red;
+    border: 2px solid rgba(0, 0, 0, 0.418);
+    position: relative;
+    height: 500px;
 }
-.gym-section img{
+.gym-section-img img{
     width: 250px;
     height: 250px;
+    padding: 10px;
+}
+.gym-section-details{
+    padding: 0px 10px;
+}
+.gym-section-details h3{
+    margin: 0;
+    text-align: justify;
+}
+.gym-section-details p{
+    margin: 0;
+    padding: 4px 0;
+}
+.gym-section-details h4{
+    margin: 0;
+    padding: 4px;
+}
+.gym-section-button button{
+    border-radius: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

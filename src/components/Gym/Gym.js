@@ -12,8 +12,8 @@ const Gym = ({gym}) => {
             <div className="gym-section-details">
                 <h3>{name}</h3>
                 <p>{detaile.slice(0,100).concat('...')}</p>
-                <p>Trained Age:{age}</p>
-                <p>Gym Time:{time}</p>
+                <h4>Trained Age: {age}</h4>
+                <h4>Gym Time: {time}</h4>
             </div>
             <div className="gym-section-button">
                 <button>Add to List</button>
