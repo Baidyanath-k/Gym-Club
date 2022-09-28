@@ -1,0 +1,21 @@
+.question-container{
+    padding: 20px 0;
+}
+.react-work{
+    background-color: #F2F4FA;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+}
+.props-state{
+    background-color: #F2F4FA;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+}
+.props-state p span{
+    font-weight: 600;
+}
+.useEffect{
+    background-color: #F2F4FA;
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 10px;
+}
