@@ -11,4 +11,6 @@
 .right-container{
     background-color: #F2F4FA;
     padding: 0 5px;
+    position:sticky;
+    top: 10px;
 }

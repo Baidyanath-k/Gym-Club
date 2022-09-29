@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Exercise from '../Exercise/Exercise';
 import Gym from '../Gym/Gym';
 import Information from '../Information/Information';
 import'./Container.css';
@@ -11,18 +12,32 @@ const Container = () => {
         .then(res=>res.json())
         .then(data=>setGyms(data))
     },[]);
+
+    const [time,setTime]=useState([]);
+    const addTOTime=(gyms)=>{
+        const newTime=[...time,gyms];
+        setTime(newTime);
+        
+        
+    }
+
     return (
         <div>
             <h4>Select Your Exercise</h4>
             <div className="all-container">
                 <div className="left-container">
                     {
-                        gyms.map(gym=><Gym gym={gym} key={gym.id}></Gym>)
+                        gyms.map(gym=><Gym 
+                            gym={gym} 
+                            key={gym.id}
+                            addTOTime={addTOTime}
+                        ></Gym>)
                     }
                     
                 </div>
                 <div className="right-container">
                     <Information></Information>
+                    <Exercise time={time}></Exercise>
                 </div>
             </div>
         </div>
