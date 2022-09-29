@@ -3,6 +3,7 @@ import Break from '../Break/Break';
 import Exercise from '../Exercise/Exercise';
 import Gym from '../Gym/Gym';
 import Information from '../Information/Information';
+import Toasts from '../Toasts/Toasts';
 import'./Container.css';
 
 const Container = () => {
@@ -40,6 +41,7 @@ const Container = () => {
                     <Information></Information>
                     <Exercise time={time}></Exercise>
                     <Break></Break>
+                    <Toasts></Toasts>
                 </div>
             </div>
         </div>
