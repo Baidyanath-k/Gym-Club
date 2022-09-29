@@ -19,3 +19,8 @@
     padding: 10px 0px 10px 10px;
     margin-bottom: 10px;
 }
+@media (min-width: 0px) and (max-width: 575px) {
+    .question-container{
+        width: 50%;
+    }
+}

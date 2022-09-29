@@ -35,3 +35,17 @@
     bottom: 0;
     left: 0;
 }
+@media (min-width: 0px) and (max-width: 575px) {
+    .gym-section{
+        width: 50%;
+        overflow: hidden;
+    }
+    .gym-section-details p{
+        margin: 0;
+        padding: 4px 0;
+        width: 100%;
+    }
+    .gym-section-button button{
+        width: 100%;
+    }
+}
