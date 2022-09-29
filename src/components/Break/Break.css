@@ -1,0 +1,16 @@
+.break-time{
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.break-btn button{
+    border: none;
+    margin-left:3px ;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}

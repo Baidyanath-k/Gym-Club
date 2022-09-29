@@ -1,4 +1,5 @@
 import React from 'react';
+import './Exercise.css';
 
 const Exercise = ({time}) => {
     // console.log(time);
@@ -8,7 +9,8 @@ const Exercise = ({time}) => {
         console.log(addTime);
     }
     return (
-        <div>
+        <div className='exe-details'>
+            <h2>Exercise Details</h2>
             <p>Exercise Time: {addTime}min</p>
         </div>
     );

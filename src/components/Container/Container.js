@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Break from '../Break/Break';
 import Exercise from '../Exercise/Exercise';
 import Gym from '../Gym/Gym';
 import Information from '../Information/Information';
@@ -38,6 +39,7 @@ const Container = () => {
                 <div className="right-container">
                     <Information></Information>
                     <Exercise time={time}></Exercise>
+                    <Break></Break>
                 </div>
             </div>
         </div>
