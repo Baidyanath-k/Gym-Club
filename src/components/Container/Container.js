@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Gym from '../Gym/Gym';
+import Information from '../Information/Information';
 import'./Container.css';
 
 const Container = () => {
@@ -21,7 +22,7 @@ const Container = () => {
                     
                 </div>
                 <div className="right-container">
-                    <p>This is right Container</p>
+                    <Information></Information>
                 </div>
             </div>
         </div>

@@ -1,12 +1,12 @@
 import './App.css';
 import Container from './components/Container/Container';
-import Header from './components/Header/Header';
+import Headers from './components/Headers/Headers';
 import Question from './components/Question/Question';
 
 function App() {
   return (
     <div className='main-body'>
-      <Header></Header>
+      <Headers></Headers>
       <Container></Container>
       <Question></Question>
     </div>
